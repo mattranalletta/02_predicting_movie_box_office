@@ -1,18 +1,23 @@
-Deliverables:
-- organized project repository (on GitHub)
-- a project README.md file
-- all code used
-- well documented notebooks (e.g., write-up of process and results)
--slide presentation (as PDF)
-- no need to push data files (e.g., .pkl, .mtx, .csv, etc.)
-- visual and oral communication in presentations (5 minutes)
-- Project README
+# Project 2: Regression
+## Predicting international movie box office revenue
 
-Your project README.md file should contain the following:
+The main goal of this project was to 
 
-- Project Title
-- Description
-- Features and Target Variables
-- Data Used (e.g., NYC Open Data)
-- Tools Used (e.g., Scrapy, Seaborn, etc.)
-- Possible impacts of your project
+### Variables
+
+**Target variable (y)**: International box office revenue
+
+**Original features (X)**: </br>
+year; budget; release month; runtime; ratings (yes or no): G, PG, PG-13, R; genre (yes or no): action, adventure, animation, biography, comedy, crime, documentary, drama, family, fantasy, history, horror, music, musical, mystery, romance, sci-fi, sport, thriller, war, western
+
+**Final model features, pared down by Lasso regression**: </br>
+Positive correlation: year; budget; runtime; G rating (yes or no); genre (yes or no): adventure, animation, comedy </br>
+Negative correlation: release month; genre (yes or no): action, biography, crime
+
+### Data
+Box Office Mojo: [Top 1000 movies by worldwide gross](https://www.boxofficemojo.com/chart/top_lifetime_gross/?area=XWW)
+
+### Tools
+Python packages: BeautifulSoup, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+
+### Possible impacts
