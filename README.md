@@ -3,9 +3,9 @@
 
 ### Summary
 
-The main goal of this project was to come up with a model to predict the international box office revenue of a movie based off a number of known data. A model like this could be useful for production companies or studio to decide what kinds of movies to make, for distributors to estimate how much money to dedicate to marketing, or for cinemas to know more about the types of movies that make the most money.
+The main goal of this project was to come up with a model to predict the international box office revenue of a movie based off a number of known data. A model like this could be useful for production companies or studios to decide what kinds of movies to make, for distributors to estimate how much money to dedicate to marketing, or for cinemas to know more about the types of movies that make the most money.
 
-The requirements were to scrape HTML from a website using Beautiful Soup or Selenium and then perform regression analysis on the data using Python packages from Scikit-learn or StatsModels.
+The requirements for the project were to scrape HTML from a website using Beautiful Soup or Selenium, and then perform regression analysis on the data using Python packages from Scikit-learn or StatsModels.
 
 In the end, the r-squared value for my model ended up being about .29, indicating that only 29% of the variance for international box office revenue was due to the features in my model.
 
