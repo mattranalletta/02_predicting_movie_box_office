@@ -3,17 +3,25 @@
 
 ### Summary
 
-The main goal of this project was to come up with a model to predict the international box office revenue of a movie based off a number of factors. A model like this could be useful for production companies or studio to decide what kinds of movies to make, for distributors to estimate how much money to dedicate to marketing, or for cinemas to know more about the types of movies that make the most money.
+The main goal of this project was to come up with a model to predict the international box office revenue of a movie based off a number of known data. A model like this could be useful for production companies or studio to decide what kinds of movies to make, for distributors to estimate how much money to dedicate to marketing, or for cinemas to know more about the types of movies that make the most money.
 
-The requirements for this project were to scrape data from a website using Beautiful Soup or Selenium and then do regression analysis on the data using models from Scikit-learn or StatsModels.
+The requirements were to scrape HTML from a website using Beautiful Soup or Selenium and then perform regression analysis on the data using Python packages from Scikit-learn or StatsModels.
 
-In the end, the r-squared for my model ended up being about .29, indicating that only 29% of the variance for international box office revenue is due to the features in my model.
+In the end, the r-squared value for my model ended up being about .29, indicating that only 29% of the variance for international box office revenue was due to the features in my model.
 
 ---
 ### Repo Contents
 - `movies_scraping.ipynb`- scraping data from site, basic cleaning
 - `top1000.pkl` - pickled dataframe after scraping
 - `movies_regression.ipynb` - regularization, validation, regression analyses, feature engineering
+
+---
+### Data
+Box Office Mojo: [Top 1000 movies by worldwide gross](https://www.boxofficemojo.com/chart/top_lifetime_gross/?area=XWW)
+
+---
+### Tools
+Python packages: BeautifulSoup, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 
 ---
 ### Variables
@@ -38,14 +46,3 @@ In the end, the r-squared for my model ended up being about .29, indicating that
 - Negative correlation: 
   - release month
   - genres: action, biography, crime
-
----
-### Data
-Box Office Mojo: [Top 1000 movies by worldwide gross](https://www.boxofficemojo.com/chart/top_lifetime_gross/?area=XWW)
-
----
-### Tools
-Python packages: BeautifulSoup, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
-
----
-### Possible impacts
