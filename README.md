@@ -1,6 +1,8 @@
 ## Metis Project 2: Regression
 ### Predicting international movie box office revenue
 
+by [Matt Ranalletta](https://www.linkedin.com/in/matthewranalletta/)
+
 ### Summary
 
 The main goal of this project was to come up with a model to predict the international box office revenue of a movie based off a number of known data. A model like this could be useful for production companies or studios to decide what kinds of movies to make, for distributors to estimate how much money to dedicate to marketing, or for cinemas to know more about the types of movies that make the most money.
