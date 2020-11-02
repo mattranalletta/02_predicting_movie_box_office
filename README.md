@@ -1,5 +1,5 @@
-# Project 2: Regression
-## Predicting international movie box office revenue
+## Metis Project 2: Regression
+### Predicting international movie box office revenue
 
 ### Summary
 
@@ -10,7 +10,7 @@ The requirements for the project were to scrape HTML from a website using Beauti
 In the end, the r-squared value for my model ended up being about .29, indicating that only 29% of the variance for international box office revenue was due to the features in my model.
 
 ---
-### Repo Contents
+### Deliverables
 - `movies_scraping.ipynb`- scraping data from site, basic cleaning
 - `top1000.pkl` - pickled dataframe after scraping
 - `movies_regression.ipynb` - regularization, validation, regression analyses, feature engineering
